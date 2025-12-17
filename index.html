@@ -1,15 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>متجر النخبة | وجهتكم الأولى للتسوق</title>
+  <title>متجر النخبة</title>
 
-  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 
   <style>
@@ -17,7 +13,7 @@
   </style>
 </head>
 
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
 
   <!-- HEADER -->
   <header class="bg-white shadow p-4 text-center">
@@ -25,27 +21,39 @@
     <p class="text-gray-500">وجهتكم الأولى للتسوق</p>
   </header>
 
-  <!-- PRODUCTS -->
-  <main class="max-w-5xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-    <div class="bg-white p-4 rounded shadow">
-      <h2 class="font-bold mb-2">منتج 1</h2>
-      <p class="text-gray-600">وصف المنتج</p>
-      <button class="mt-3 bg-blue-600 text-white px-4 py-2 rounded">
-        اطلب الآن
-      </button>
-    </div>
+  <!-- MAIN -->
+  <main class="flex-1">
+    <div class="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold mb-2">منتج 1</h2>
+        <p class="text-gray-600">وصف المنتج</p>
+        <button class="mt-3 bg-blue-600 text-white px-4 py-2 rounded">
+          اطلب الآن
+        </button>
+      </div>
 
-    <div class="bg-white p-4 rounded shadow">
-      <h2 class="font-bold mb-2">منتج 2</h2>
-      <p class="text-gray-600">وصف المنتج</p>
-      <button class="mt-3 bg-blue-600 text-white px-4 py-2 rounded">
-        اطلب الآن
-      </button>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold mb-2">منتج 2</h2>
+        <p class="text-gray-600">وصف المنتج</p>
+        <button class="mt-3 bg-blue-600 text-white px-4 py-2 rounded">
+          اطلب الآن
+        </button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold mb-2">منتج 3</h2>
+        <p class="text-gray-600">وصف المنتج</p>
+        <button class="mt-3 bg-blue-600 text-white px-4 py-2 rounded">
+          اطلب الآن
+        </button>
+      </div>
+
     </div>
   </main>
 
   <!-- FOOTER -->
-  <footer class="text-center p-4 text-gray-500">
+  <footer class="mt-auto text-center p-4 text-gray-500">
     © 2025 متجر النخبة
   </footer>
 
